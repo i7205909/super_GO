@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>5EE38025-D53E-4C8F-8032-87A6D45CEBAF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>superGo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>29F0F4D8609F7A10822B2A0ABDEE7293E13D983B</key>
 		<string>https://github.com/i7205909/super_GO.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>superGo/superGo.xcodeproj/project.xcworkspace</string>
+	<string>superGo/superGo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>29F0F4D8609F7A10822B2A0ABDEE7293E13D983B</key>

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACFC98F61B299A2D0083DA4C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC98F51B299A2D0083DA4C /* ProfileViewController.swift */; };
+		ACFC98F81B299A5A0083DA4C /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC98F71B299A5A0083DA4C /* EventsViewController.swift */; };
+		ACFC98FA1B299A810083DA4C /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC98F91B299A810083DA4C /* PlacesViewController.swift */; };
+		ACFC98FC1B299AD50083DA4C /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC98FB1B299AD50083DA4C /* PeopleViewController.swift */; };
+		ACFC98FE1B299AF60083DA4C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC98FD1B299AF60083DA4C /* ChatViewController.swift */; };
+		ACFC99001B299B0C0083DA4C /* PinEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC98FF1B299B0C0083DA4C /* PinEventViewController.swift */; };
+		ACFC99021B299B430083DA4C /* SeeEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC99011B299B430083DA4C /* SeeEventViewController.swift */; };
+		ACFC99041B299B640083DA4C /* RatePlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC99031B299B640083DA4C /* RatePlaceViewController.swift */; };
+		ACFC99061B299B940083DA4C /* PinPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC99051B299B940083DA4C /* PinPlaceViewController.swift */; };
+		ACFC99081B29A1F00083DA4C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC99071B29A1F00083DA4C /* WelcomeViewController.swift */; };
+		ACFC990A1B29A2570083DA4C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC99091B29A2570083DA4C /* SignUpViewController.swift */; };
 		ACFE9AAE1B28977900407595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE9AAD1B28977900407595 /* AppDelegate.swift */; };
 		ACFE9AB01B28977900407595 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE9AAF1B28977900407595 /* ViewController.swift */; };
 		ACFE9AB31B28977900407595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFE9AB11B28977900407595 /* Main.storyboard */; };
@@ -26,6 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACFC98F51B299A2D0083DA4C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ACFC98F71B299A5A0083DA4C /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		ACFC98F91B299A810083DA4C /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		ACFC98FB1B299AD50083DA4C /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		ACFC98FD1B299AF60083DA4C /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		ACFC98FF1B299B0C0083DA4C /* PinEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinEventViewController.swift; sourceTree = "<group>"; };
+		ACFC99011B299B430083DA4C /* SeeEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeEventViewController.swift; sourceTree = "<group>"; };
+		ACFC99031B299B640083DA4C /* RatePlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatePlaceViewController.swift; sourceTree = "<group>"; };
+		ACFC99051B299B940083DA4C /* PinPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinPlaceViewController.swift; sourceTree = "<group>"; };
+		ACFC99071B29A1F00083DA4C /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		ACFC99091B29A2570083DA4C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ACFE9AA81B28977900407595 /* superGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFE9AAC1B28977900407595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACFE9AAD1B28977900407595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,7 +101,18 @@
 			children = (
 				ACFE9AAD1B28977900407595 /* AppDelegate.swift */,
 				ACFE9AAF1B28977900407595 /* ViewController.swift */,
+				ACFC98F51B299A2D0083DA4C /* ProfileViewController.swift */,
 				ACFE9AB11B28977900407595 /* Main.storyboard */,
+				ACFC99091B29A2570083DA4C /* SignUpViewController.swift */,
+				ACFC99071B29A1F00083DA4C /* WelcomeViewController.swift */,
+				ACFC99051B299B940083DA4C /* PinPlaceViewController.swift */,
+				ACFC99031B299B640083DA4C /* RatePlaceViewController.swift */,
+				ACFC99011B299B430083DA4C /* SeeEventViewController.swift */,
+				ACFC98FF1B299B0C0083DA4C /* PinEventViewController.swift */,
+				ACFC98FD1B299AF60083DA4C /* ChatViewController.swift */,
+				ACFC98FB1B299AD50083DA4C /* PeopleViewController.swift */,
+				ACFC98F91B299A810083DA4C /* PlacesViewController.swift */,
+				ACFC98F71B299A5A0083DA4C /* EventsViewController.swift */,
 				ACFE9AB41B28977900407595 /* Images.xcassets */,
 				ACFE9AB61B28977900407595 /* LaunchScreen.xib */,
 				ACFE9AAB1B28977900407595 /* Supporting Files */,
@@ -212,8 +245,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACFC98F61B299A2D0083DA4C /* ProfileViewController.swift in Sources */,
+				ACFC98F81B299A5A0083DA4C /* EventsViewController.swift in Sources */,
+				ACFC98FA1B299A810083DA4C /* PlacesViewController.swift in Sources */,
+				ACFC98FE1B299AF60083DA4C /* ChatViewController.swift in Sources */,
+				ACFC99041B299B640083DA4C /* RatePlaceViewController.swift in Sources */,
 				ACFE9AB01B28977900407595 /* ViewController.swift in Sources */,
 				ACFE9AAE1B28977900407595 /* AppDelegate.swift in Sources */,
+				ACFC98FC1B299AD50083DA4C /* PeopleViewController.swift in Sources */,
+				ACFC99001B299B0C0083DA4C /* PinEventViewController.swift in Sources */,
+				ACFC99081B29A1F00083DA4C /* WelcomeViewController.swift in Sources */,
+				ACFC99061B299B940083DA4C /* PinPlaceViewController.swift in Sources */,
+				ACFC990A1B29A2570083DA4C /* SignUpViewController.swift in Sources */,
+				ACFC99021B299B430083DA4C /* SeeEventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +453,7 @@
 				ACFE9AC91B28977900407595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACFE9ACA1B28977900407595 /* Build configuration list for PBXNativeTarget "superGoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +462,7 @@
 				ACFE9ACC1B28977900407595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

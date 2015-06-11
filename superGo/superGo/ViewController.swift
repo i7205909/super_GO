@@ -9,11 +9,31 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    
+    
+    @IBOutlet weak var UserNameSignIn: UITextField!
+    @IBOutlet weak var PaswordSignIn: UITextField!
+    
+    @IBAction func LogInButton(sender: UIButton) {
+    }
+    
+    @IBAction func ConnectFacebookButton(sender: UIButton) {
+    }
+    
+    
+    @IBAction func SignUpButton(sender: UIButton) {
+    }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+ 
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
