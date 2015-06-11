@@ -16,10 +16,10 @@
 		ACFC99021B299B430083DA4C /* SeeEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC99011B299B430083DA4C /* SeeEventViewController.swift */; };
 		ACFC99041B299B640083DA4C /* RatePlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC99031B299B640083DA4C /* RatePlaceViewController.swift */; };
 		ACFC99061B299B940083DA4C /* PinPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC99051B299B940083DA4C /* PinPlaceViewController.swift */; };
-		ACFC99081B29A1F00083DA4C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC99071B29A1F00083DA4C /* WelcomeViewController.swift */; };
+		ACFC99081B29A1F00083DA4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC99071B29A1F00083DA4C /* ViewController.swift */; };
 		ACFC990A1B29A2570083DA4C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC99091B29A2570083DA4C /* SignUpViewController.swift */; };
 		ACFE9AAE1B28977900407595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE9AAD1B28977900407595 /* AppDelegate.swift */; };
-		ACFE9AB01B28977900407595 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE9AAF1B28977900407595 /* ViewController.swift */; };
+		ACFE9AB01B28977900407595 /* SIGNINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE9AAF1B28977900407595 /* SIGNINViewController.swift */; };
 		ACFE9AB31B28977900407595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFE9AB11B28977900407595 /* Main.storyboard */; };
 		ACFE9AB51B28977900407595 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFE9AB41B28977900407595 /* Images.xcassets */; };
 		ACFE9AB81B28977900407595 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFE9AB61B28977900407595 /* LaunchScreen.xib */; };
@@ -46,12 +46,12 @@
 		ACFC99011B299B430083DA4C /* SeeEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeEventViewController.swift; sourceTree = "<group>"; };
 		ACFC99031B299B640083DA4C /* RatePlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatePlaceViewController.swift; sourceTree = "<group>"; };
 		ACFC99051B299B940083DA4C /* PinPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinPlaceViewController.swift; sourceTree = "<group>"; };
-		ACFC99071B29A1F00083DA4C /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		ACFC99071B29A1F00083DA4C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACFC99091B29A2570083DA4C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ACFE9AA81B28977900407595 /* superGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFE9AAC1B28977900407595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACFE9AAD1B28977900407595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACFE9AAF1B28977900407595 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACFE9AAF1B28977900407595 /* SIGNINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIGNINViewController.swift; sourceTree = "<group>"; };
 		ACFE9AB21B28977900407595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACFE9AB41B28977900407595 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ACFE9AB71B28977900407595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -100,11 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				ACFE9AAD1B28977900407595 /* AppDelegate.swift */,
-				ACFE9AAF1B28977900407595 /* ViewController.swift */,
+				ACFE9AAF1B28977900407595 /* SIGNINViewController.swift */,
 				ACFC98F51B299A2D0083DA4C /* ProfileViewController.swift */,
 				ACFE9AB11B28977900407595 /* Main.storyboard */,
 				ACFC99091B29A2570083DA4C /* SignUpViewController.swift */,
-				ACFC99071B29A1F00083DA4C /* WelcomeViewController.swift */,
+				ACFC99071B29A1F00083DA4C /* ViewController.swift */,
 				ACFC99051B299B940083DA4C /* PinPlaceViewController.swift */,
 				ACFC99031B299B640083DA4C /* RatePlaceViewController.swift */,
 				ACFC99011B299B430083DA4C /* SeeEventViewController.swift */,
@@ -250,11 +250,11 @@
 				ACFC98FA1B299A810083DA4C /* PlacesViewController.swift in Sources */,
 				ACFC98FE1B299AF60083DA4C /* ChatViewController.swift in Sources */,
 				ACFC99041B299B640083DA4C /* RatePlaceViewController.swift in Sources */,
-				ACFE9AB01B28977900407595 /* ViewController.swift in Sources */,
+				ACFE9AB01B28977900407595 /* SIGNINViewController.swift in Sources */,
 				ACFE9AAE1B28977900407595 /* AppDelegate.swift in Sources */,
 				ACFC98FC1B299AD50083DA4C /* PeopleViewController.swift in Sources */,
 				ACFC99001B299B0C0083DA4C /* PinEventViewController.swift in Sources */,
-				ACFC99081B29A1F00083DA4C /* WelcomeViewController.swift in Sources */,
+				ACFC99081B29A1F00083DA4C /* ViewController.swift in Sources */,
 				ACFC99061B299B940083DA4C /* PinPlaceViewController.swift in Sources */,
 				ACFC990A1B29A2570083DA4C /* SignUpViewController.swift in Sources */,
 				ACFC99021B299B430083DA4C /* SeeEventViewController.swift in Sources */,

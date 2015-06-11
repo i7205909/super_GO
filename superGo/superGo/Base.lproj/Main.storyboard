@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XxN-Rh-oKN">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -7,7 +7,7 @@
         <!--Sign in-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="superGo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="SIGNINViewController" customModule="superGo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -47,7 +47,7 @@
                                 </state>
                                 <connections>
                                     <action selector="SignUpButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wOv-c1-LXp"/>
-                                    <segue destination="DG1-9n-fWZ" kind="show" id="Bow-wy-pdj"/>
+                                    <segue destination="DG1-9n-fWZ" kind="show" identifier="fromSignInToSignUp" id="Bow-wy-pdj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't have an account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQe-UU-bzZ">
@@ -143,188 +143,10 @@
             </objects>
             <point key="canvasLocation" x="886" y="170"/>
         </scene>
-        <!--Profile View Controller-->
-        <scene sceneID="fKi-8x-Jun">
-            <objects>
-                <viewController id="yYx-YL-g0Q" customClass="ProfileViewController" customModule="superGo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Sis-kx-nM1"/>
-                        <viewControllerLayoutGuide type="bottom" id="zDp-Iu-6lJ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UXk-hX-JyZ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <segue destination="izU-1F-EtK" kind="show" id="pK8-y2-c10"/>
-                        <segue destination="qw4-Fs-Dt1" kind="show" id="LGa-Uj-KxT"/>
-                        <segue destination="ISG-tS-Zdz" kind="show" id="mQv-Iy-bWB"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ApQ-Gn-bbb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3356" y="396"/>
-        </scene>
-        <!--People View Controller-->
-        <scene sceneID="DsT-w4-vgT">
-            <objects>
-                <viewController id="izU-1F-EtK" customClass="PeopleViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yjV-94-6OA"/>
-                        <viewControllerLayoutGuide type="bottom" id="VWP-0i-lw3"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="URv-pf-SUW">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <segue destination="RuL-Cr-2hU" kind="show" id="yAE-HU-ZDE"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LAe-eV-EgW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2446" y="-882"/>
-        </scene>
-        <!--Chat View Controller-->
-        <scene sceneID="ltj-OW-KXe">
-            <objects>
-                <viewController id="RuL-Cr-2hU" customClass="ChatViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="2Sy-mi-ZSz"/>
-                        <viewControllerLayoutGuide type="bottom" id="bvb-hQ-tBX"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="jAc-jn-bFb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="j57-px-vHp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3174" y="-1450"/>
-        </scene>
-        <!--Pin Event View Controller-->
-        <scene sceneID="eAA-hE-IGE">
-            <objects>
-                <viewController id="RQx-iS-O99" customClass="PinEventViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aLG-fM-al1"/>
-                        <viewControllerLayoutGuide type="bottom" id="7Pd-hm-Pow"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="PBx-1E-L7c">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JSx-jA-LaQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5440" y="-437"/>
-        </scene>
-        <!--See Event View Controller-->
-        <scene sceneID="hfu-Dq-28a">
-            <objects>
-                <viewController id="7uA-j7-pkK" customClass="SeeEventViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="u7i-iC-qCa"/>
-                        <viewControllerLayoutGuide type="bottom" id="y2y-cT-O4k"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="pa3-cj-ODo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PIg-On-fXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5390" y="745"/>
-        </scene>
-        <!--Pin Place View Controller-->
-        <scene sceneID="mt8-62-Pck">
-            <objects>
-                <viewController id="sjn-3S-REl" customClass="PinPlaceViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PW4-KL-Eyd"/>
-                        <viewControllerLayoutGuide type="bottom" id="B8G-5S-n5M"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="47R-Ij-zJk">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZR7-uZ-TyU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2735" y="2732"/>
-        </scene>
-        <!--Events View Controller-->
-        <scene sceneID="CEQ-Tl-Jgg">
-            <objects>
-                <viewController id="qw4-Fs-Dt1" customClass="EventsViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="tEN-tf-9G0"/>
-                        <viewControllerLayoutGuide type="bottom" id="Q5a-sx-zPR"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="uhG-xQ-AeW">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <segue destination="RQx-iS-O99" kind="show" id="W5t-rv-vM9"/>
-                        <segue destination="7uA-j7-pkK" kind="show" id="4M1-cb-bMR"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6wU-bK-4Oi" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4487" y="77"/>
-        </scene>
-        <!--Places View Controller-->
-        <scene sceneID="amu-o0-8qr">
-            <objects>
-                <viewController id="ISG-tS-Zdz" customClass="PlacesViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="tEt-p8-gUF"/>
-                        <viewControllerLayoutGuide type="bottom" id="xDF-QJ-Fdl"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ajb-QI-Bdx">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <segue destination="sjn-3S-REl" kind="show" id="Ydb-Sy-Dl9"/>
-                        <segue destination="nVL-OQ-hfS" kind="show" id="m2m-Rm-jeS"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LCq-Bh-o8W" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2341" y="1023"/>
-        </scene>
-        <!--Rate Place View Conroller-->
-        <scene sceneID="x7j-KN-w8h">
-            <objects>
-                <viewController id="nVL-OQ-hfS" customClass="RatePlaceViewConroller" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="i3M-WM-2Y3"/>
-                        <viewControllerLayoutGuide type="bottom" id="67m-hu-E7Z"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="hf5-aF-ZEx">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="20z-AI-QAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2042" y="2697"/>
-        </scene>
         <!--Super Go-->
         <scene sceneID="uNy-ev-iMT">
             <objects>
-                <viewController id="xVI-YH-uC7" customClass="WelcomeViewController" customModule="superGo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xVI-YH-uC7" customClass="ViewController" customModule="superGo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y54-wl-crf"/>
                         <viewControllerLayoutGuide type="bottom" id="Vu6-uP-d2c"/>
@@ -364,12 +186,12 @@
                     <connections>
                         <outlet property="LogOut" destination="Md6-kG-Gx7" id="2hA-HC-3rT"/>
                         <outlet property="NameLabel" destination="qfC-yi-5EW" id="3Ix-Jw-ued"/>
-                        <segue destination="4F5-Yd-mvb" kind="show" id="Cee-7K-9GR"/>
+                        <segue destination="4F5-Yd-mvb" kind="show" identifier="fromWelcomeToSignIn" id="Cee-7K-9GR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="13K-ap-QIr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1256" y="165"/>
+            <point key="canvasLocation" x="-1249" y="170"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4Ea-bg-Azl">
@@ -388,7 +210,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K7R-D4-u0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1811" y="165"/>
+            <point key="canvasLocation" x="-1807" y="165"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VRk-gz-Nak">
